@@ -1,0 +1,43 @@
+input[type="text"]{
+    border: none;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    width: 300px;
+}
+
+.container{
+    width: 100%;
+    height:50px;
+    padding: 5px 10px;
+    text-align: center;
+    background: #ffffffe7;
+
+}
+
+.Nav{
+   width: 100%;
+   height:50px;
+   background: #1b12a1;
+   text-align: center;
+   padding: 10px;
+   color: aliceblue;
+}
+.padding{
+    padding-left: 100px;
+}
+
+.pullLeft{
+ left: 500px ;
+}
+.imagen{  
+    margin: 0;
+    padding: 0;
+    background: #1c12a113 no-repeat center top;
+    background-size: cover;
+    
+    font-family: sans-serif;
+    height: 95vh;
+    
+  }
