@@ -46,6 +46,9 @@ export class DataTableComponent implements OnInit {
     this.dataSource.data.filter = codigo.trim().toLowerCase();
     
   }
+  onSelect(selectedItem: any) {
+    console.log("Selected item: ", selectedItem);
+}
 
 
 }
